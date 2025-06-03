@@ -1,0 +1,47 @@
+{
+    "lang":"English",
+    "button":{
+        "download":"Download",
+        "paste":"Paste",
+        "clear":"Clear"
+    },
+    "menu":{
+        "home":"Home",
+        "about":"About",
+        "contact":"Contact",
+        "faq":"FAQ",
+        "trm":"Terms and Condition"
+    },
+    "media":{
+        "story":"Story",
+        "video":"Video",
+        "photo":"Photo",
+        "reel":"Reel",
+        "igtv":"IGTV"
+    },
+    "pageTitle":{
+        "home": "Download instagram video, photo, reel, igtv and highlights",
+        "about": "About InstaDownloader",
+        "contact": "Contact us 24/7",
+        "faq": "Frequently asked and questions",
+        "trm": "Terms and policy"
+    },
+    "howItWorks":{
+        "tag": "How It Works",
+        "title": "Easy instagram content downloader",
+        "info": "Download Instagram medias quickly and easily by following these simple steps. Get started now with our hassle-free tool."
+    },
+    "page":{
+        "about":{
+            "tag": "About us",
+            "title": "Hassle free",
+            "info": ""
+        }
+    },
+    "insta_downloader":"Instagram Downloader",
+    "insta_desc": "Download Video, Reels, Photo, IGTV, carousel from Instagram",
+    "insta_placeholder": "username or instagram url",
+    "insta_download_how":"HOW TO DOWNLOAD VIDEOs FROM INSTAGRAM?"
+}
+
+

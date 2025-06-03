@@ -1,0 +1,44 @@
+npm install vue@latest vue-router@latest @vitejs/plugin-vue
+
+#add vite.js
+import vue from "@vitejs/plugin-vue";
+
+plugins: [
+        vue(),
+]
+
+resolve: {
+    alias: {
+        vue: "vue/dist/vue.esm-bundler.js",
+    },
+},
+
+
+#add app.vue
+import "./bootstrap";
+import { createApp } from "vue";
+
+import App from "./App.vue";
+
+createApp(App).mount("#app");
+
+
+@add blade header for vite loader
+@vite(['resources/js/app.js'])
+
+
+#update the vite version  to update the auto importer
+npm i -D vite@alpha
+
+
+#setup laravel web router
+Route::get('/{vue_capture?}', function () {
+    return view('welcome');
+})->where('vue_capture', '[\/\w\.-]*');
+
+
+@setup vue notFound handler route
+{
+    path: '/:pathMatch(.*)*',
+    component: () => import('../src/components/pages/NotFound.vue')
+}
